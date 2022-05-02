@@ -1,0 +1,16 @@
+<form [formGroup]="editForm" (ngSubmit)="onSubmit()" novalidate>
+    <div class="mb-3">
+      <label>How are you feeling?</label>
+      <input type="text" formControlName="feeling" class="form-control" required>
+    </div>
+
+  
+    <div class="mb-3">
+      <label>Journal Entry</label>
+      <textarea type="text" formControlName="entry" class="form-control" rows='7' required></textarea>
+    </div>
+  
+    <div class="mb-3">
+      <button type="submit" class="btn btn-primary">Update</button>
+    </div>
+  </form>

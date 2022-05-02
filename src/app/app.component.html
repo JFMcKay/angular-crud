@@ -1,0 +1,35 @@
+<main class="">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark mx-auto ">
+  <div class="container-fluid">
+    <div>
+      <a class="navbar-brand" routerLink="/list-users" href="#">Wellness Journal</a>
+    </div>
+    <button
+      class="navbar-toggler p-2"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav me-auto pb-2 pb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/create" routerLinkActive="active">Create</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/list-users" routerLinkActive="active">Show Journal Entries</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="main-section mx-auto">
+<div class="container pt-5 pb-5">
+  <router-outlet></router-outlet>
+</div>
+</section>
+</main>

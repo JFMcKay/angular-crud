@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #aaafff;
+}
+
+.main-section {
+    background: #fff;
+    padding: 0;
+    height: 50vh;
+}
+
+main {   
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
